@@ -1,0 +1,131 @@
+.bx-wrapper {
+    box-shadow: none;
+    border: none;
+    margin-bottom: 0;
+}
+
+.bx-wrapper .bx-pager {
+    padding-top: 38px;
+}
+
+.bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
+    position: static;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus, .bx-wrapper .bx-pager.bx-default-pager a:hover {
+    background: #3142c5;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: rgba(43, 41, 45, 0.2);
+    width: 8px;
+    height: 8px;
+    margin: 0 5px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.response {
+    padding-bottom: 66px;
+    margin: 62px 0 106px;
+
+    position: relative;
+}
+
+.carousel {
+  text-align: center;
+}
+
+.carousel-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #3142c6;
+
+  margin-bottom: 28px;
+}
+
+.carousel-text {
+  font-size: 24px;
+  line-height: 34px;
+  color: #2b292d;
+
+  max-width: 750px;
+  margin: 0 auto 34px;
+}
+
+.person-name {
+  font-weight: 700;
+  line-height: 24px;
+  color: #2b292d;
+}
+
+.person-position {
+  color: rgba(43, 41, 45, 0.6);
+  line-height: 24px;
+}
+
+.response__img-container {
+    position: absolute;
+    bottom: 0;
+    right: 26px;
+}
+
+.response__img-container img {
+    max-width: 253px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1090px) {
+    .bx-wrapper .bx-pager {
+        padding-top: 14px;
+    }
+
+    .response {
+        margin: 87px 0;
+        padding-bottom: 0;
+    }
+
+    .carousel-title {
+        max-width: 573px;
+        margin: 0 auto 14px;
+    }
+
+    .carousel-text {
+        max-width: 584px;
+        margin: 0 auto 5px;
+    }
+
+    .response__img-container {
+        position: static;
+        text-align: center;
+        margin-top: 51px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .bx-wrapper .bx-pager {
+        padding-top: 40px;
+    }
+
+    .response {
+        margin: 53px 0 115px;
+    }
+
+    .carousel {
+        text-align: start;
+    }
+
+    .carousel-title {
+        margin: 0 0 29px;
+    }
+
+    .carousel-text {
+        margin: 0 0 34px;
+    }
+
+    .response__img-container {
+        margin-top: 40px;
+    }
+}
